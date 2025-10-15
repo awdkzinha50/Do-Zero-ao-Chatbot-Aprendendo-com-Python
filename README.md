@@ -1,6 +1,6 @@
 # 🤖 Do Zero ao Chatbot: Aprendendo com Python
 
-Este projeto foi desenvolvido como parte do minicurso **"Do Zero ao Chatbot"**, com o objetivo de ensinar como criar um chatbot simples utilizando **Python** e conceitos básicos de lógica de programação.
+Este projeto foi desenvolvido como parte do minicurso **"Do Zero ao Chatbot"**, com o objetivo de ensinar como criar um chatbot simples utilizando **Python** e conceitos básicos de lógica de programação, além da utilização de ponte API (LLM) para a conexão com o banco da Inteligência Artificial Gemini.
 ---
 🧑‍💻 Autoria
 
