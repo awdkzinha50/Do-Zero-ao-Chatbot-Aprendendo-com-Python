@@ -1,0 +1,25 @@
+
+==============================================
+
+# O que é uma API?
+# Uma chave API (Application Programming Interface) é um conjunto de regras e definições que permite que diferentes softwares se comuniquem entre si.
+# As APIs são usadas para permitir que aplicativos acessem funcionalidades ou dados de outros serviços, como bancos de dados, serviços web, ou plataformas de terceiros.
+# Serve como forma de controle e segurança, ou seja:
+# Permite que seja identificado pelos desenvolvedores a origem da requisição.
+# Permite o controle de acesso, ou seja, limitar o número de requisições que um usuário pode fazer.
+# Permite o monitoramento de uso, ou seja, os desenvolvedores conseguem rastrear como a API está sendo usada.
+# Garante a segurança, ou seja, ao usar uma chave API, o desenvolvedor garante que apenas determinadors aplicativos tenham acesso a certos tipos de dados.
+
+# 1. Configuração da Chave de API
+# É muito importante NÃO colocar a chave diretamente no código.
+# A melhor prática é usar variáveis de ambiente.
+# Este comando lê a chave de uma variável de ambiente chamada 'API_KEY'
+# Você precisará definir essa variável no seu sistema.
+# Para Linux/macOS: export API_KEY="SUA_CHAVE_AQUI"
+# Para Windows: set API_KEY="SUA_CHAVE_AQUI"
+# Ou, para fins de teste, pode colocar a chave diretamente (não recomendado para produção)
+# genai.configure(api_key="SUA_CHAVE_AQUI")
+
+# Configura a API key. Para um app Streamlit, a melhor prática é usar st.secrets.
+# Neste exemplo, vamos usar os.environ para manter a compatibilidade com a versão de console.
+
