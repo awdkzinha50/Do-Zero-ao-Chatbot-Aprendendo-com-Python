@@ -30,7 +30,7 @@ Laís Brilhante de Morais
 - Python 3.13
 - VS Code
 - Biblioteca `Genai`
-- Biblioteca 'Streamlit'
+- Biblioteca `Streamlit`
 
 ---
 
